@@ -44,7 +44,8 @@ object MoviesData {
         "Led by stellar performances and artfully helmed by writer-director Florian Zeller, The Father presents a devastatingly empathetic portrayal of dementia.",
         "The Reason I Jump's moving personal perspective succeeds in providing an authentic understanding of its subjects' journeys.",
         "There Is No Evil thoughtfully poses troubling questions about man's responsibility to man -- and leaves the viewer to try and answer them.",
-        " It's hard to ignore the parts that are left unexamined, but it does well enough by its real-life stranger-than-fiction story."
+        "True Mothers uses an intractable conflict to explore the bonds of parenthood with director/co-writer Naomi Kawase's usual sensitivity and grace.",
+        "It's hard to ignore the parts that are left unexamined, but it does well enough by its real-life stranger-than-fiction story."
     )
 
     private val movieUrls = arrayOf(
@@ -114,6 +115,9 @@ val listData: ArrayList<Movie>
             val movie = Movie()
             movie.title = movieTitles[position]
             movie.description = movieDescriptions[position]
+            movie.critic = movieCritics[position]
+            movie.url = movieUrls[position]
+            movie.rating = movieRatings[position]
             movie.image = movieImages[position]
             list.add(movie)
         }

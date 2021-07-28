@@ -3,4 +3,10 @@
     <string name="movies_title">Title</string>
     <string name="movies_description">Description</string>
     <string name="button">View more</string>
+    <string name="action_about">About</string>
+    <string name="data_received">Data diterima</string>
+    <string name="description">Description</string>
+    <string name="critic">Critic</string>
+    <string name="rating">Rating</string>
+    <string name="view_open_link">View at Rotten Tomatoes</string>
 </resources>
