@@ -60,6 +60,8 @@ class MainActivity : AppCompatActivity() {
     private fun setMode(selectedMode: Int) {
         when (selectedMode) {
             R.id.action_about -> {
+                val moveIntent = Intent(this@MainActivity, AboutActivity::class.java)
+                startActivity(moveIntent)
             }
         }
     }

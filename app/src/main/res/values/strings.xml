@@ -9,4 +9,9 @@
     <string name="critic">Critic</string>
     <string name="rating">Rating</string>
     <string name="view_open_link">View at Rotten Tomatoes</string>
+    <string name="about">About</string>
+    <string name="about_name">Name</string>
+    <string name="about_data_name">Nadira Arasya</string>
+    <string name="about_email">Email</string>
+    <string name="about_data_email">nadira.arasya.tif18@polban.ac.id</string>
 </resources>
